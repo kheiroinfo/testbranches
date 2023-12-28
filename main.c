@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
+
+
 int main(int argc, char const *argv[])
 {
     int a,b,c,d,f;
@@ -11,7 +13,13 @@ int main(int argc, char const *argv[])
    printf("d=%d\n",d);
    f=a*b;
    printf("f=%d",f);
+  
+   int X =f+a; 
+   printf(X);
 // test branch kheiro
+
 // tzst branch 2
+
+
     return 0;
 }
